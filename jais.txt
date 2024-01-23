@@ -1,0 +1,13 @@
+#!# This is a Python script
+def greet(name):
+    """This function greets the person passed in as a parameter."""
+    print("Hello, " + name + "!")
+
+# Main function
+def main():
+    name = input("Enter your name: ")
+    greet(name)
+
+# Run the script if it's executed directly
+if __name__ == "__main__":
+    main()
